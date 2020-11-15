@@ -1322,8 +1322,6 @@ rendered on MEDIUM with the style LINE-STYLE."))
 
 (defgeneric mirror-transformation (port mirror))
 (defgeneric port-text-style-mappings (port))
-(defgeneric port-lookup-mirror (port sheet))
-(defgeneric port-register-mirror (port sheet mirror))
 (defgeneric port-enable-sheet (port sheet))
 (defgeneric port-disable-sheet (port sheet))
 (defgeneric port-pointer (port))
